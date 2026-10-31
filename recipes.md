@@ -12,7 +12,7 @@ For the Pork:
 - 1 teaspoon salt
 - 1/2 teaspoon black pepper
 - 1 cup water
-- 2 cups BBQ sauce
+- 1 cups BBQ sauce
 - hawaian buns
 
 ### Instructions

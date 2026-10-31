@@ -8,8 +8,8 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.MenuBook
 import androidx.compose.material.icons.filled.CalendarMonth
-import androidx.compose.material.icons.filled.MenuBook
 import androidx.compose.material.icons.filled.Restaurant
 import androidx.compose.material.icons.filled.ShoppingCart
 import androidx.compose.material3.Badge
@@ -44,7 +44,7 @@ enum class AppPhaseTab(val label: String, val icon: ImageVector) {
     PLAN("1. Plan", Icons.Default.CalendarMonth),
     SHOP("2. Shop", Icons.Default.ShoppingCart),
     COOK("3. Cook", Icons.Default.Restaurant),
-    RECIPES("Recipes", Icons.Default.MenuBook)
+    RECIPES("Recipes", Icons.AutoMirrored.Filled.MenuBook)
 }
 
 class MainActivity : ComponentActivity() {

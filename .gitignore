@@ -1,11 +1,38 @@
-*.iml
-.gradle
-/local.properties
-/.idea
-.DS_Store
-/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
+*.apk
+*.ap_
+*.aab
+*.dex
+
+# Gradle & Kotlin build caches/outputs
+.gradle/
+.kotlin/
+build/
+**/build/
+
+# Local configuration (SDK path, etc.)
 local.properties
-app/build
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+.navigation/
+captures/
+output.json
+
+# Android Native build
+.externalNativeBuild/
+.cxx/
+
+# Release / Debug outputs & Keystores
+*.jks
+*.keystore
+app/release/
+app/debug/
+
+# Profiling & crash logs
+*.hprof
+*.log
+
+# macOS / OS files
+.DS_Store
